@@ -1,0 +1,87 @@
+body{
+    
+    background: linear-gradient(90deg, rgba(10,9,20,1) 5%, rgba(27,27,112,1) 47%, rgba(20,18,50,1) 95%);
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+   
+    
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    border-radius: 30px;
+    background: linear-gradient(90deg, rgba(10,9,20,1) 5%, rgba(27,27,112,1) 47%, rgba(20,18,50,1) 95%);
+    height: 500px;
+    width: 400px;
+
+}
+
+.container h1{
+    border-bottom: 1px solid black;
+    margin: 0;
+    font-size: 40px;
+    
+}
+
+
+.text{
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"]{
+    margin: 20px 10px 0 0;
+    width: 110px;
+    border-radius: 10px;
+    border-style: none;
+    padding: 9px;
+}
+
+.text input{
+    margin: 8px;
+    padding: 9px;
+    border-radius: 10px;
+    width: 250px;
+    border-style: none;
+
+}
+input[type="submit" ]{
+    font-size: 20px;
+    padding: 8px;
+    width: 245px;
+    border-radius: 10px;
+    border-style: none;
+    margin: 10px 0;
+    background-color: rgb(13, 13, 117);
+    font-weight: 500;
+
+}
+
+input[type="submit" ]:hover{
+    background-color: rgb(9, 4, 57);
+   
+}
+
+.signup{
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(9, 4, 57);
+}

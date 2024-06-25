@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(12, 11, 44);
+    height: 40px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    color: aliceblue;
+    gap: 14px;
+    font-size: 1.1rem;
+
+}
+.brand img{
+    width: 44px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.body{
+    
+    background: linear-gradient(90deg, rgba(10,9,20,1) 5%, rgba(27,27,112,1) 47%, rgba(20,18,50,1) 95%);
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95.5vh;
+    width: 100vw;
+
+    font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+   
+    
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    border-radius: 30px;
+    background: linear-gradient(90deg, rgba(10,9,20,1) 5%, rgba(27,27,112,1) 47%, rgba(20,18,50,1) 95%);
+    height: 500px;
+    width: 400px;
+
+}
+
+.container h1{
+    border-bottom: 1px solid black;
+    margin: 0;
+    font-size: 40px;
+    
+}
+
+
+.text{
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.text>input{
+    margin: 8px;
+    padding: 8px;
+    border-radius: 10px;
+    width: 240px;
+    border-style: none;
+
+}
+.pass{
+    font-size: 14px;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Lato', sans-serif;
+    
+}
+input[type="submit" ]{
+    font-size: 20px;
+    padding: 8px;
+    width: 245px;
+    border-radius: 10px;
+    border-style: none;
+    margin: 10px 0 10px 15px;
+    background-color: rgb(17, 17, 87);
+    font-weight: 400;
+    color: white;
+
+}
+
+input[type="submit" ]:hover{
+    background-color: rgb(9, 4, 57);
+   
+}
+
+.signup{
+    color: white;
+    font-size: 15px;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Lato', sans-serif;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(9, 4, 57);
+}
+.loginwith{
+    text-align: center;
+    font-size: 18px;
+    padding: 8px;
+    width: 245px;
+    border-radius: 10px;
+    border-style: none;
+    margin: 10px 0 10px 10px;
+    background-color: rgb(33, 33, 118);
+    font-weight: 500;
+
+}
+.google{
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+    
+}
+.google>a{
+    color: rgb(108, 96, 96);
+}
+.google>a:hover{
+    color: rgb(17, 17, 53);
+}
